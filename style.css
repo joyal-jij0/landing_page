@@ -1,0 +1,170 @@
+.header{
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 80px;
+}
+
+.logo{
+    font-size: 24px;
+}
+
+.link{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: gainsboro;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    background: #1F2937;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+    height: 250px;
+
+}
+
+.subtext{
+    max-width: 400px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#signup{
+    background-color: royalblue;
+    border: 1px royalblue;
+    border-radius: 8px;
+    color: white;
+    padding: 6px 20px;
+}
+
+.img{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    height: 150px;
+    width: 400px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 80px;
+}
+
+.midtitle{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.lower{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-color: #3882F6;
+    border-radius: 8px;
+}
+
+.cards {
+    display: flex;
+    gap: 50px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt{
+    max-width: 100px ;
+    text-align: center;
+}
+.quotebox{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.quote{
+    display: flex;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    min-width: 400px;
+}
+
+.author{
+    align-self: flex-end;
+    padding-top: 30px;
+    padding-right: 35px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.lowercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.lowerbox{
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 40px;
+    border-radius: 8px;
+    gap: 100px;
+}
+
+.time{
+    font-size: large;
+    font-weight: bold;
+}
+
+.lowersignup{
+    background-color: #3882F6;
+
+    border-radius: 8px;
+    color: white;
+    padding: 6px 20px;
+}
+
+.lowersignupbut{
+    border: 2px #E5E7EB;
+}
+
+.footer{
+    background: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
